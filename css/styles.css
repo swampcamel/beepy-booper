@@ -1,0 +1,23 @@
+body {
+  background-image: url('../img/retrobg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title{
+  text-align: center;
+  color: #D9EB52;
+  background-image: url('../img/banner1.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
