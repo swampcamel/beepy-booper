@@ -1,3 +1,8 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   background-image: url('../img/retrobg.png');
   background-repeat: no-repeat;
@@ -8,6 +13,33 @@ body {
   -o-background-size: cover;
   background-size: cover;
   font-family: 'Source Code Pro', monospace;
+  font-size: 22px;
+  height: 100%;
+}
+
+h2, h3, h4, h5, h6, p, text, input, .validate, .input-field, .btn, .btn-large {
+  font-family: 'Source Code Pro', monospace;
+  color: #DDF746;
+}
+
+.btn, .btn-large {
+  background-color: #6D8027;
+}
+
+.btn:hover {
+  background-color: #B1C041;
+  opacity: 50;
+  transition: opacity 1s ease-in-out;
+}
+
+.waves-effect.waves-cmptr .waves-ripple {
+    background-color: rgba(206, 234, 61, 0.65);
+    color: #DDF746;
+}
+
+.waves-effect.waves-cmptr .waves-ripple :hover {
+    background-color: rgba(206, 234, 61, 0.65);
+    color: #DDF746;
 }
 
 .title {
@@ -18,7 +50,7 @@ body {
   background-image: url('../img/banner1.jpg');
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: relative;
+  /* background-attachment: relative; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -27,4 +59,28 @@ body {
 h1 {
   font-family: 'Monoton', cursive;
   font-size: 6vw;
+}
+
+.boost {
+  width: 100%;
+  height: 100%;
+}
+
+.halcal {
+  background-image: url("../img/halcal.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  padding: 0;
+}
+.hal-child {
+  width: 70%;
+  height: 70%;
+  padding-top: 13%;
+  padding-left: 23%;
+  padding-right: 15%;
+  padding-bottom: 1%;
 }
