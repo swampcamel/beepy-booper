@@ -7,11 +7,14 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Source Code Pro', monospace;
 }
 
-.title{
+.title {
   text-align: center;
-  color: #D9EB52;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 1px #7A9BA8,
+                -1px -2px 2px #7A9BA8;
   background-image: url('../img/banner1.jpg');
   background-repeat: no-repeat;
   background-position: center center;
@@ -20,4 +23,8 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 6vw;
 }
