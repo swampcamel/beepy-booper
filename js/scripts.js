@@ -92,4 +92,8 @@ $(function () {
     $("#output").html("<p>" + printMemory + "</p>");
     $("#output").append("<p> Total: " + total.toString() + "</p>");
   });
+
+  $("#attr-btn").click(function() {
+   $('#attr-toggle').toggle();
+ });
 });

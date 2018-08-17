@@ -97,6 +97,17 @@ h1 {
   margin-top: 3%;
 }
 
+#attr-toggle {
+  background-color: #6D8027;
+  padding:5%;
+  display:none;
+}
+#attr-toggle a {
+  color: #DDF746;
+}
+#attr-toggle a:hover {
+  color: #B1C041;
+}
 .shake-horizontal {
 	-webkit-animation: shake-horizontal 0.3s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 	        animation: shake-horizontal 0.3s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;

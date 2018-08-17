@@ -29,6 +29,8 @@ _This site was created to explore branching statements, loops and arrays.  It ut
 
 _Under certain conditions when a NaN has been entered into the memoryBanks array and then removed, the Print Conditions button has to be pressed twice to display an array without NaNs and an accurate total._
 
+_If Let's Do This button is clicked too rapidly, the type animation's will overlap each other creating discrepancies in the output._
+
 _Smallest Width Viewing Port has display issues_
 
 
@@ -41,7 +43,7 @@ _Name: Dan Mace_
 
 _HTML5, CSS, Materialize 1.0.0-rc.2, jQuery 3.3.1, JavaScript ES6, Atom, Git_
 
-### License & Atribution
+### License & Attribution
 
 *Background from x11kjm: https://www.deviantart.com/x11kjm/art/Retro-Wallpaper-212491997*
 *Background free to use under (CC BY-SA 3.0) https://creativecommons.org/licenses/by-sa/3.0/
@@ -52,6 +54,9 @@ _HTML5, CSS, Materialize 1.0.0-rc.2, jQuery 3.3.1, JavaScript ES6, Atom, Git_
 *I'm Sorry Dave Sound File from http://www.rosswalker.co.uk/movie_sounds/2001_and_2010.htm*
 *Standard Copyright Restrictions for Personal Use Apply to Original Creator (MGM)*
 *Shake Animation from http://animista.net*
+*Materialize CSS: https://materializecss.com*
+*jQuery 3.3.1: https://api.jquery.com/*
+*Google Fonts API: https://fonts.google.com/*
 
 *This project is under GNU General Public Licensing*
 
