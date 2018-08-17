@@ -19,11 +19,16 @@ body {
   color: #DDF746;
 }
 
-h2, h3, h4, h5, h6, p, text, input, .validate, .input-field, .btn, .btn-large, .waves-effect, .waves-green {
+h2, h3, h4, h5, h6, p, text, input, form, label, .validate, .input-field, .btn, .btn-large, .waves-effect, .waves-green, .col, #userInput, #inputLabel, #reverse {
   font-family: 'Source Code Pro', monospace;
   font-size: 1vw;
   line-height: 1vw;
   color: #DDF746;
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 6vw;
 }
 
 .btn, .btn-large {
@@ -62,10 +67,6 @@ h2, h3, h4, h5, h6, p, text, input, .validate, .input-field, .btn, .btn-large, .
   -o-background-size: cover;
   background-size: cover;
 }
-h1 {
-  font-family: 'Monoton', cursive;
-  font-size: 6vw;
-}
 
 .boost {
   width: 100%;
@@ -86,10 +87,14 @@ h1 {
 .hal-child {
   width: 70%;
   height: 70%;
-  padding-top: 12%;
+  padding-top: 8%;
   padding-left: 23%;
   padding-right: 15%;
   padding-bottom: 1%;
+}
+
+#output {
+  margin-top: 3%;
 }
 
 .shake-horizontal {

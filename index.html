@@ -27,11 +27,17 @@
           <form id="beep-form">
             <div class="input-field col">
               <input id="userInput" name="numInput" type="number" placeholder="Feed Me Numbers" class="validate">
-              <label for="userInput" name="numInput">Enter a Number</label>
+              <label id="inputLabel" for="userInput" name="numInput">Enter a Number</label>
+            </div>
+            <p>
+              <label>
+                <input id="reverse-box" type="checkbox" name="reverse">
+                <span id="reverse">Reverse</span>
+              </label>
+            </p>
               <button class="btn waves-effect waves-green" type="submit" id="action">Let's Do This
               </button>
               <button class="btn waves-effect waves-green right" type="button" id="full-print">Print Entries</button>
-            </div>
           </form>
 
             <div id="output">

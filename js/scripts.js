@@ -36,6 +36,13 @@ $(function () {
     return returnedValue;
   }
 
+  var reverseString = function(str) {
+    var reversedString = str.split("");
+    reversedString = reversedString.reverse();
+    reversedString = reversedString.join("");
+    return reversedString;
+  }
+
   $("form#beep-form").submit(function(event) {
     event.preventDefault();
     $("#output").html("");
@@ -46,7 +53,7 @@ $(function () {
     var userInput = parseInt($("input#userInput").val());
 
     memoryBanks.push(userInput);
-    output = numCheck(userInput);
+
 
     function printOut() {
       if (animator < output.length) {
@@ -55,7 +62,15 @@ $(function () {
         setTimeout(printOut, speed);
       }
     }
-    printOut(output);
+
+    if ($("#reverse-box").prop("checked") == true) {
+      output = numCheck(userInput);
+      output = reverseString(output);
+      printOut(output);
+    } else {
+      output = numCheck(userInput);
+      printOut(output);
+    }
   });
 
   $("button#full-print").click(function() {
