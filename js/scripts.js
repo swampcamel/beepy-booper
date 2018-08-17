@@ -76,8 +76,15 @@ $(function () {
   $("button#full-print").click(function() {
     var total= 0;
 
-    memoryBanks.forEach(function(value) {
-      total = total + parseInt(value);
+    memoryBanks.forEach(function(value, index) {
+      var num = parseInt(value);
+      if (num === num) {
+      console.log(num);
+      total = total + num;
+    } else {
+      memoryBanks.splice(index, 1);
+      console.log(num);
+    }
     });
 
     var printMemory = memoryBanks.join(" ");
