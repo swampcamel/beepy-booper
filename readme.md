@@ -58,6 +58,8 @@ _HTML5, CSS, Materialize 1.0.0-rc.2, jQuery 3.3.1, JavaScript ES6, Atom, Git_
 *jQuery 3.3.1: https://api.jquery.com/*
 *Google Fonts API: https://fonts.google.com/*
 
+*Find this project at https://github.com/swampcamel/beepy-booper*
+*Find it live at https://swampcamel.github.io/beepy-booper*
 *This project is under GNU General Public Licensing*
 
 Copyright (c) 2018 **_Dan Mace_**
