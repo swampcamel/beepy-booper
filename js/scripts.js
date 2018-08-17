@@ -20,22 +20,22 @@ $(function () {
 
   $("form#beep-form").submit(function(event) {
     event.preventDefault();
-    $("span#output").html("");
+
     var output = "";
-    var animator = 0;
-    var speed = 50;
+    // var animator = 0;
+    // var speed = 50;
     var userInput = parseInt($("input#userInput").val());
     output = numCheck(userInput);
 
-    function printOut(text) {
-      if (animator < text.length) {
-        $("span#output").append(text[animator]);
-        animator++;
-        setTimeout(printOut, speed);
-      }
-    }
-    printOut(output);
-
+    // function printOut(text) {
+    //   if (animator < text.length) {
+    //     $("span#output").append(text[animator]);
+    //     animator++;
+    //     setTimeout(printOut, speed);
+    //   }
+    // }
+    // printOut(output);
+    $("#output").text(output);
   });
 
 });

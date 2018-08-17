@@ -13,32 +13,38 @@ body {
   -o-background-size: cover;
   background-size: cover;
   font-family: 'Source Code Pro', monospace;
-  font-size: 22px;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
   height: 100%;
+  color: #DDF746;
 }
 
-h2, h3, h4, h5, h6, p, text, input, .validate, .input-field, .btn, .btn-large {
+h2, h3, h4, h5, h6, p, text, input, .validate, .input-field, .btn, .btn-large, .waves-effect, .waves-green {
   font-family: 'Source Code Pro', monospace;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
   color: #DDF746;
 }
 
 .btn, .btn-large {
   background-color: #6D8027;
+  padding: 3%;
+  height: 100%;
 }
 
-.btn:hover {
+.btn:hover, .btn:focus {
   background-color: #B1C041;
   opacity: 50;
   transition: opacity 1s ease-in-out;
 }
 
-.waves-effect.waves-cmptr .waves-ripple {
-    background-color: rgba(206, 234, 61, 0.65);
+.waves-effect.waves-green .waves-ripple {
+    background-color: rgba(221, 247, 70, 0.65);
     color: #DDF746;
 }
 
-.waves-effect.waves-cmptr .waves-ripple :hover {
-    background-color: rgba(206, 234, 61, 0.65);
+.waves-effect.waves-green .waves-ripple :hover {
+    background-color: rgba(221, 247, 70, 0.65);
     color: #DDF746;
 }
 
@@ -69,17 +75,18 @@ h1 {
 .halcal {
   background-image: url("../img/halcal.png");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
   padding: 0;
+  margin-bottom: auto;
 }
 .hal-child {
   width: 70%;
   height: 70%;
-  padding-top: 13%;
+  padding-top: 12%;
   padding-left: 23%;
   padding-right: 15%;
   padding-bottom: 1%;
