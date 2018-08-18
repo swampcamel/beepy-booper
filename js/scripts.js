@@ -1,5 +1,4 @@
 $(function () {
-// This numCheck function satisfies the requirements of the project.  It displays an understanding of branches, operators and RegEx, but this week was about Arrays, and while splitting the number into individual digits and then checking each digit for the 0 || 1 condition is tempting, the code below is far better performant.  So, I'll hold on to this function cause I like it's simplicity, but to make sure you know I can do the array thing, I'll still dump the values into an array and print them back out to the user.
   var memoryBanks = [];
   var beep = new Audio('media/bleep_01.wav');
   var boop = new Audio('media/bleep_05.wav');
