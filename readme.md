@@ -1,8 +1,8 @@
 # _Beepy Booper_
 
-#### _Site that takes a n input and returns various outputs depending on the  8/15/2018_
+#### _Site that takes a n input and returns various outputs depending on the number  8/15/2018_
 
-#### By _**Dan Mace & Dan Aberle**_
+#### By _**Dan Mace**_
 
 ## Description
 
@@ -11,11 +11,12 @@ _This site was created to explore branching statements, loops and arrays.  It ut
 ## Project Specifications
 
 * _Receive a form input from the user and return an output_
-* _Outputs BEEP if input has a 0_
-* _Outputs BOOP if input has a 1, with precedence over 0_
-* _Outputs a "Sorry Dave" message if input is divisible by 3, with precedence over 0 and 1_
-* _Outputs an alternate "Sorry Dave" message is exactly 0, with precedence overall._
-* _Plays different audio noises when above conditions are met_
+* _Outputs a list of numbers counting up to the input_
+* _Outputs BEEP if number in list has a 0_
+* _Outputs BOOP if number in list has a 1, with precedence over 0_
+* _Outputs a "Sorry Dave" message if number in list is divisible by 3, with precedence over 0 and 1_
+* _Outputs a "Sorry Dave" message if number in list is exactly 0, with precedence overall._
+* _Plays different audio noises when above conditions are met on the input_
 * _Allows a reverse checkbox option that reverses the outputted message_
 * _Catches empty field entries and discards them from the Print Entries output_
 
