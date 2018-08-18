@@ -6,34 +6,49 @@ $(function () {
   var sorry = new Audio('media/cantdo.wav');
 
   var numCheck = function(number) {
-    var returnedValue = "";
+    // var returnedValue = "";
+    var numberArray = [];
+    for (var i = 0; i < number+1; i++) {
+      numberArray.push(i);
+    }
+    for (var j=0; j < numberArray.length; j++) {
+      if ((numberArray[j] === 0) || (numberArray[j]%3 === 0)) {
+        numberArray[j] = "I'm sorry, Dave.";
+      } else if (/1.*/.test(numberArray[j])) {
+        numberArray[j] = "BOOP";
+      } else if (/0.*/.test(numberArray[j])) {
+        numberArray[j] = "BEEP";
+      }
+    }
+    console.log(numberArray);
     if (number === 0) {
       sorry.play();
-      returnedValue = "I'm sorry, Dave. I'm afraid I can't do that. You cannot divide the infinite nothing.";
+      // returnedValue = "I'm sorry, Dave. I'm afraid I can't do that. You cannot divide the infinite nothing.";
     } else if (number%3 === 0){
       sorry.play();
-      returnedValue = "I'm sorry, Dave. I'm afraid I can't do that. I have not been programmed to process multiples of three.";
+      // returnedValue = "I'm sorry, Dave. I'm afraid I can't do that. I have not been programmed to process multiples of three.";
 
     } else if (/1.*/.test(number)) {
       $("#title").addClass("shake-horizontal");
       setTimeout(function() {
         $("#title").removeClass("shake-horizontal");
       }, 350);
-      beep.play();
-      returnedValue = "BOOP";
+      boop.play();
+      // returnedValue = "BOOP";
 
     } else if (/0.*/.test(number)) {
       $("#title").addClass("shake-horizontal");
       setTimeout(function() {
         $("#title").removeClass("shake-horizontal");
       }, 350);
-      boop.play();
-      returnedValue = "BEEP";
+      beep.play();
+      // returnedValue = "BEEP";
 
     } else {
-      returnedValue = number.toString();
+     console.log("No catches.");
     }
-    return returnedValue;
+    var newReturn = numberArray.join(" ");
+    return newReturn;
   }
 
   var reverseString = function(str) {
