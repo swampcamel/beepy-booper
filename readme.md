@@ -47,20 +47,32 @@ _HTML5, CSS, Materialize 1.0.0-rc.2, jQuery 3.3.1, JavaScript ES6, Atom, Git_
 ### License & Attribution
 
 *Background from x11kjm: https://www.deviantart.com/x11kjm/art/Retro-Wallpaper-212491997*
+
 *Background free to use under (CC BY-SA 3.0) https://creativecommons.org/licenses/by-sa/3.0/*
+
 *Computer Graphic from BonjouRCharlie https://stock.adobe.com/images/happy-new-year-old-computer/182877415*
+
 *Computer Graphic License obtained under Adobe Standard License https://stock.adobe.com/license-terms?prev_url=detail&standard=1&extended=1&enhanced=0&editorial=0#comparison-section*
+
 *Computer Noise Sound Files from https://www.freespecialeffects.co.uk/pages/computers.html*
+
 *No License Designated for Computer Noises*
+
 *I'm Sorry Dave Sound File from http://www.rosswalker.co.uk/movie_sounds/2001_and_2010.htm*
+
 *Standard Copyright Restrictions for Personal Use Apply to Original Creator (MGM)*
+
 *Shake Animation from http://animista.net*
+
 *Materialize CSS: https://materializecss.com*
+
 *jQuery 3.3.1: https://api.jquery.com/*
-*Google Fonts API: https://fonts.google.com/*
+
 
 *Find this project at https://github.com/swampcamel/beepy-booper*
+
 *Find it live at https://swampcamel.github.io/beepy-booper*
+
 *This project is under GNU General Public Licensing*
 
 Copyright (c) 2018 **_Dan Mace_**
