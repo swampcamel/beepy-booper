@@ -35,6 +35,10 @@ h1 {
   background-color: #6D8027;
   padding: 3%;
   height: 100%;
+  max-height: auto;
+  max-width: 200px;
+  min-width: 120px;
+  min-height: 40px;
 }
 
 .btn:hover, .btn:focus {
